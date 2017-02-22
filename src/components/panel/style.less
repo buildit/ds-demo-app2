@@ -5,13 +5,23 @@
   .grid-container();
 
   .mainContent {
+
     .grid-element(9);
 
-    table {
+    .row {
+      padding-top: @sizing-padding-small / 2;
+      padding-bottom: @sizing-padding-small / 2;
       width: 100%;
 
-      td {
-        text-align: center;
+      label {
+        margin-right: 25px;
+        width: 150px;
+        display: inline-block;
+      }
+
+      input {
+        width: 150px;
+        display: inline-block;
       }
     }
   }
