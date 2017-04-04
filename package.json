@@ -4,7 +4,7 @@
   "description": "Desing System Demo App 2",
   "scripts": {
     "build": "webpack --colors",
-    "dev": "webpack-dev-server --hot --inline --host 0.0.0.0 --port 9002"
+    "start": "webpack-dev-server --hot --inline --host 0.0.0.0 --port 9002"
   },
   "repository": {
     "type": "git",
