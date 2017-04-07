@@ -9,7 +9,7 @@ const data = [
 
 const App = () => {
   return (
-    <div className="app1">
+    <div className="app2">
       <Header title="Bank of Unicorn" />
       <Panel />
       <Footer>The footer for App 1</Footer>
